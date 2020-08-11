@@ -1,0 +1,6 @@
+framework module Pods_ParentApp {
+  umbrella header "Pods-ParentApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
