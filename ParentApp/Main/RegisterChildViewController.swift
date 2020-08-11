@@ -37,7 +37,6 @@ class RegisterChildViewController: UIViewController,GMSMapViewDelegate {
     var markerView = UIImageView(image: UIImage(named: "Map_TabBarIcon_color"))
   var finalcoordinates = CLLocationCoordinate2D()
     let geofireRef = Database.database().reference().child("users")
-   
     override func viewDidLoad() {
         super.viewDidLoad()
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dateOfBirthTapped(_:)))
